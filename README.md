@@ -38,6 +38,9 @@ Built a comprehensive framework for analyzing 6-frame sequential robot behavior 
 
 Fine-tuned **Qwen 2.5-VL (3B parameters)** using **QLoRA** to create a specialized vision-language-action model for dual-task learning.
 
+<img width="2225" height="1226" alt="image" src="https://github.com/user-attachments/assets/f27ab447-6f02-4585-a6ff-75c45205ea28" />
+
+
 **Technical Details:**
 - ~100M trainable parameters (LoRA rank 64, alpha 128)
 - Hybrid architecture: VLM features → Bridge Network → Gaussian Process
@@ -47,6 +50,7 @@ Fine-tuned **Qwen 2.5-VL (3B parameters)** using **QLoRA** to create a specializ
 **Text Generation Performance:**
 - Scene Description: 0.66 semantic similarity
 - Action Justification: 0.66 semantic similarity
+
 
 ### Pipeline 3: Specialized Multimodal Fusion Network
 
