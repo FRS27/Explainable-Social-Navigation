@@ -3,11 +3,15 @@
 
 A novel multimodal deep learning system for socially-aware robot navigation that predicts velocity commands while generating human-understandable explanations of robot behavior.
 
-img width="1159" height="318" alt="image" src="https://github.com/user-attachments/assets/f35a429d-5592-4a98-ae22-e97693ef6b30
+<img width="1159" height="318" alt="image" src="https://github.com/user-attachments/assets/6a205657-3a7f-4c38-9315-ce097a829cfb" />
 
 *6-frame sequential analysis for robot navigation decisions*
 
 ---
+
+
+
+
 
 ## 🎯 Project Overview
 
