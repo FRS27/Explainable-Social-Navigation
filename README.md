@@ -31,12 +31,12 @@ Built a comprehensive framework for analyzing 6-frame sequential robot behavior 
 - AI-assisted annotation + 100% human verification
 - **Annotation Quality:** 0.923-0.941 semantic similarity scores
 
+<img width="1188" height="690" alt="image" src="https://github.com/user-attachments/assets/ba3caecd-3cf5-46ac-acb7-04a3e94a66eb" />
+
+
 ### Pipeline 2: Vision-Language-Action Model
 
 Fine-tuned **Qwen 2.5-VL (3B parameters)** using **QLoRA** to create a specialized vision-language-action model for dual-task learning.
-
-![Depth Perception](images/depth_maps.png)
-*3D spatial understanding using Depth-Anything V2*
 
 **Technical Details:**
 - ~100M trainable parameters (LoRA rank 64, alpha 128)
@@ -52,8 +52,8 @@ Fine-tuned **Qwen 2.5-VL (3B parameters)** using **QLoRA** to create a specializ
 
 Designed a dual-branch architecture processing temporal sequences through expert feature extractors, achieving precise velocity predictions.
 
-![DINOv2 Attention](images/attention_maps.png)
-*Semantic attention mechanisms showing robot focus areas*
+<img width="1105" height="509" alt="image" src="https://github.com/user-attachments/assets/bc0f7274-b36d-47ec-802b-c493ad6f579c" />
+*Predicted Depth Map*
 
 **Three Expert Feature Extractors:**
 - **DINOv2-base:** 768-dim semantic features
@@ -64,10 +64,7 @@ Designed a dual-branch architecture processing temporal sequences through expert
 - Temporal Processing: 2-layer Bidirectional LSTMs (256 hidden units)
 - Fusion Mechanism: 8-head Multi-head Self-Attention
 - Dual-Branch Design: Separate prediction heads for linear/angular velocity
-- Adaptive Bias Correction: Command embeddings with statistical velocity templates
 
-![Optical Flow Analysis](images/optical_flow_comparison.png)
-*Optical flow patterns reveal motion characteristics for velocity prediction*
 
 ---
 
