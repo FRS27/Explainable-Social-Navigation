@@ -53,7 +53,7 @@ Fine-tuned **Qwen 2.5-VL (3B parameters)** using **QLoRA** to create a specializ
 Designed a dual-branch architecture processing temporal sequences through expert feature extractors, achieving precise velocity predictions.
 
 <img width="1105" height="509" alt="image" src="https://github.com/user-attachments/assets/bc0f7274-b36d-47ec-802b-c493ad6f579c" />
-*Predicted Depth Map*
+Predicted Depth Map
 
 **Three Expert Feature Extractors:**
 - **DINOv2-base:** 768-dim semantic features
@@ -77,20 +77,9 @@ Designed a dual-branch architecture processing temporal sequences through expert
 | **R² Score** | **0.81** | 0.44 |
 | **MAE** | **0.1239** | 0.1391 |
 
-![Prediction Performance](images/prediction_scatter.png)
-*Scatter plots showing prediction accuracy for both velocity components*
+<img width="1389" height="559" alt="image" src="https://github.com/user-attachments/assets/ac54e313-c3cc-48a9-ae7e-eff2282507f8" />
 
----
-
-## 🔬 Key Contributions
-
-1. **Integrated Multimodal System:** Combined VLM semantic understanding with specialized geometric feature extraction for robot control
-2. **Explainability Suite:** Comprehensive visualization pipeline including attention maps, optical flow analysis, and feature space representations
-3. **Dual-Task Learning:** Simultaneous generation of natural language explanations and precise velocity commands
-4. **Dataset Innovation:** Gold-standard annotations evaluating social navigation principles with LLM assistance
-
-![Error Analysis](images/error_analysis.png)
-*Detailed error distribution analysis across prediction ranges*
+Scatter plots showing prediction accuracy for both velocity components
 
 ---
 
@@ -106,7 +95,5 @@ Designed a dual-branch architecture processing temporal sequences through expert
 
 **Visualization:** Matplotlib, Seaborn, Plotly
 
----
 
-## 📁 Repository Structure
 
